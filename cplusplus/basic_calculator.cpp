@@ -20,19 +20,19 @@ int main(){
         result = a+b;
         messageOutput(option, result);
     }
-    if (option == 2){
+    else if (option == 2){
         cout << message;
         cin >> a >> b;
         result = a - b;
         messageOutput(option, result);
     }
-    if (option == 3){
+   else if (option == 3){
         cout << message;
         cin >> a >> b;
         result = a / b;
         messageOutput(option, result);
     }
-    if (option == 4){
+    else if (option == 4){
         cout << message;
         cin >> a >> b;
         result = a * b;
@@ -48,13 +48,13 @@ void messageOutput(int x, float math){
     if (x==1){
         cout << "Your addition is: " << math << endl;
     }
-    if (x==2){
+    else if (x==2){
         cout << "Your difference is: " << math << endl;
     }
-    if (x==3){
+    else if (x==3){
         cout << "Your division is: " << math << endl;
     }
-    if (x==4){
+    else if (x==4){
         cout << "Your product is: " << math << endl;
     }
     else{
