@@ -4,14 +4,18 @@ using namespace std;
 
 template<class T, int n>
 
+//we use a template function so when we call popStack, it can be any data type
+//the int n says how big our class functions will be when called
+
 class STACK
-{   private: int a[n];
+{   
+    private: int a[n];
              int counter;
     public: void clearStack(){counter = 0;}
             bool emptyStack(){
                 if (counter == 0) return true;
                 else return false;
-                }
+            }
             bool fullStack(){return (counter == n)?true:false;}
             void pushStack(int x){a[counter]=x; counter++;}
             T popStack(){
