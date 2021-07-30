@@ -3,3 +3,4 @@ cplusplus/.vscode/c_cpp_properties.json
 cplusplus/.vscode/launch.json
 cplusplus/.vscode/settings.json
 cplusplus/stacker.exe
+*.json
