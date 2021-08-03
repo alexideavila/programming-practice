@@ -4,3 +4,4 @@ cplusplus/.vscode/launch.json
 cplusplus/.vscode/settings.json
 cplusplus/stacker.exe
 *.json
+python/messing_around_with_stacks_jupyter.ipynb
